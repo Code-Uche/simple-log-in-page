@@ -1,4 +1,5 @@
 Screen1 As screen:
+    ContentLanguage: ="English"
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
     "'login text' As label":
