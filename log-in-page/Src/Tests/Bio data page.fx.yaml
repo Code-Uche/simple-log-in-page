@@ -12,9 +12,9 @@
             Value: =SetProperty('InputEmail'.Text, "ezeprecious.uche@gmail.com")
 
         Step2 As TestStep:
-            Description: ="Set 'InputPassword'.Text to ""password123"""
+            Description: ="Set 'InputPassword'.Text to ""password124"""
             Screen: =Screen1
-            Value: =SetProperty('InputPassword'.Text, "password123")
+            Value: =SetProperty('InputPassword'.Text, "password124")
 
         Step3 As TestStep:
             Description: ="Select 'LoginButton'"
@@ -22,27 +22,37 @@
             Value: =Select('LoginButton')
 
         Step4 As TestStep:
+            Description: ="Set 'InputPassword'.Text to ""password123"""
+            Screen: =Screen1
+            Value: =SetProperty('InputPassword'.Text, "password123")
+
+        Step5 As TestStep:
+            Description: ="Select 'LoginButton'"
+            Screen: =Screen1
+            Value: =Select('LoginButton')
+
+        Step6 As TestStep:
             Description: ="Select 'AddMediaButton2'"
             Screen: =Screen2
             Value: =Select('AddMediaButton2')
 
-        Step5 As TestStep:
+        Step7 As TestStep:
             Description: ="Set 'TextInput2'.Text to ""Jane"""
             Screen: =Screen2
             Value: =SetProperty('TextInput2'.Text, "Jane")
 
-        Step6 As TestStep:
+        Step8 As TestStep:
             Description: ="Set 'TextInput6'.Text to ""Will"""
             Screen: =Screen2
             Value: =SetProperty('TextInput6'.Text, "Will")
 
-        Step7 As TestStep:
+        Step9 As TestStep:
             Description: ="Set 'TextInput3'.Text to ""Doe"""
             Screen: =Screen2
             Value: =SetProperty('TextInput3'.Text, "Doe")
 
-        Step8 As TestStep:
-            Description: ="Set 'TextInput7'.Text to ""12/34/4567"""
+        Step10 As TestStep:
+            Description: ="Set 'TextInput7'.Text to ""01/02/2000"""
             Screen: =Screen2
-            Value: =SetProperty('TextInput7'.Text, "12/34/4567")
+            Value: =SetProperty('TextInput7'.Text, "01/02/2000")
 
