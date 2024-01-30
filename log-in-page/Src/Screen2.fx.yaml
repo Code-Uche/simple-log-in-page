@@ -337,14 +337,14 @@ Screen2 As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["cr288_courseid"]
         HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(205, 209, 213, 1)
+        HoverFill: =RGBA(89, 9, 89, 1)
         InputTextPlaceholder: ="Select a course"
         Items: =Inventory
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
         SearchFields: =["cr288_courseid"]
         SearchItems: =Search(Inventory,ComboBox1.SearchText,"cr288_courseid")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SelectionFill: =RGBA(89, 9, 90, 1)
         Size: =13
         Tooltip: ="Select preferred courses"
         X: =215
@@ -354,12 +354,12 @@ Screen2 As screen:
     Button1 As button:
         BorderColor: =ColorFade(Self.Fill, -5%)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(89, 9, 89, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(181, 25, 181, 1)
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        HoverFill: =ColorFade(RGBA(89, 9, 90, 100), -20%)
         Size: =15
         Text: ="Submit"
         X: =543
