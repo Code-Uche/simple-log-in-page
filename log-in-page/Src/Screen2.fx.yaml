@@ -361,6 +361,7 @@ Screen2 As screen:
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(89, 9, 90, 100), -20%)
+        OnSelect: =Navigate(Screen3)
         Size: =15
         Text: ="Submit"
         X: =543
