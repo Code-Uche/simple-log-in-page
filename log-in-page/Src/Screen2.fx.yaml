@@ -315,3 +315,54 @@ Screen2 As screen:
             Size: =13
             ZIndex: =4
 
+    Label2 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Preferred Course"
+        X: =65
+        Y: =639
+        ZIndex: =9
+
+    ComboBox1 As combobox:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChevronBackground: =RGBA(208, 21, 214, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["cr288_courseid"]
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        InputTextPlaceholder: ="Select a course"
+        Items: =Inventory
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SearchFields: =["cr288_courseid"]
+        SearchItems: =Search(Inventory,ComboBox1.SearchText,"cr288_courseid")
+        SelectionFill: =RGBA(100, 118, 132, 1)
+        Size: =13
+        Tooltip: ="Select preferred courses"
+        X: =215
+        Y: =639
+        ZIndex: =10
+
+    Button1 As button:
+        BorderColor: =ColorFade(Self.Fill, -5%)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(181, 25, 181, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =15
+        Text: ="Submit"
+        X: =543
+        Y: =706
+        ZIndex: =11
+
