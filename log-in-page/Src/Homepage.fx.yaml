@@ -1,10 +1,12 @@
 "Homepage As screen.'autoLayout_HeaderFooter_ver1.0'":
+    BackgroundImage: ='pexels-cottonbro-studio-5474028'
+    ImagePosition: =ImagePosition.Center
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(245, 245, 245, 1)
-        Height: =200.00
+        Height: =193
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =16
@@ -17,16 +19,19 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =768
-        X: =0.00
-        Y: =0.00
+        Width: =1361
+        X: =5
+        Y: =288
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
             Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75.00
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -43,77 +48,129 @@
             Y: =0.00
             ZIndex: =1
 
-        MainContainer1 As groupContainer.verticalAutoLayoutContainer:
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =200.00
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            PaddingBottom: =0.00
-            PaddingLeft: =0.00
-            PaddingRight: =0.00
-            PaddingTop: =0.00
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
-            Width: =1751.28
-            X: =0.00
-            Y: =0.00
-            ZIndex: =3
+    fusionlink As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 134, 208, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: ="FusionLink"
+        Width: =227
+        X: =111
+        Y: =53
+        ZIndex: =2
 
-            Container3 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.Light
-                Height: =200.00
-                LayoutMinHeight: =100
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                PaddingBottom: =0.00
-                PaddingLeft: =0.00
-                PaddingRight: =0.00
-                PaddingTop: =0.00
-                RadiusBottomLeft: =4
-                RadiusBottomRight: =4
-                RadiusTopLeft: =4
-                RadiusTopRight: =4
-                Width: =1751.28
-                X: =0.00
-                Y: =0.00
-                ZIndex: =1
+    solutions As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: ="Solutions"
+        Width: =182
+        X: =318
+        Y: =53
+        ZIndex: =3
 
-        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
-            DropShadow: =DropShadow.Light
-            Fill: =RGBA(255, 255, 255, 1)
-            FillPortions: =0
-            Height: =75.00
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            PaddingBottom: =0.00
-            PaddingLeft: =0.00
-            PaddingRight: =0.00
-            PaddingTop: =0.00
-            RadiusBottomLeft: =4
-            RadiusBottomRight: =4
-            RadiusTopLeft: =4
-            RadiusTopRight: =4
-            Width: =1751.28
-            X: =0.00
-            Y: =0.00
-            ZIndex: =4
-
-    Label1 As label:
+    signin As label:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.Verdana
-        Height: =40.00
-        Size: =59.54
-        Text: ="Home"
-        Width: =525.38
-        X: =63.05
-        Y: =39.00
-        ZIndex: =2
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Log in"
+        Width: =96
+        X: =1081
+        Y: =63
+        ZIndex: =4
+
+    Label15 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Signup"
+        X: =1190
+        Y: =63
+        ZIndex: =5
+
+    Label17 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(70, 83, 92, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="info@fusionlinksolutions.com"
+        Width: =284
+        X: =111
+        Y: =20
+        ZIndex: =6
+
+    Icon2 As icon.Mail:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =34
+        Icon: =Icon.Mail
+        Width: =48
+        X: =63
+        Y: =23
+        ZIndex: =7
+
+    Label18 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(185, 188, 192, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =37
+        Size: =13
+        Text: |-
+            ="Mon - Sat: 8.00 am - 7.00 pm"
+        Width: =290
+        X: =489
+        Y: =20
+        ZIndex: =8
+
+    Icon3 As icon.Clock:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =45
+        Icon: =Icon.Clock
+        Width: =38
+        X: =437
+        Y: =15
+        ZIndex: =9
+
+    Label19 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(185, 188, 192, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =35
+        Size: =13
+        Text: ="We are creative, ambitious and ready for challenges!"
+        Width: =464
+        X: =792
+        Y: =18
+        ZIndex: =10
+
+    Label20 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(22, 12, 207, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =30
+        OnSelect: =Navigate(ContactUs, ScreenTransition.Fade)
+        Size: =13
+        Text: ="Hire Us"
+        Width: =112
+        X: =1228
+        Y: =23
+        ZIndex: =11
 
