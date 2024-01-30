@@ -1,0 +1,169 @@
+Screen1 As screen:
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    "'login text' As label":
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =66
+        Size: =19
+        Text: ="Log in"
+        Width: =303
+        X: =120
+        Y: =45
+        ZIndex: =1
+
+    InputEmail As text:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =56.00
+        HintText: ="Input email"
+        HoverBorderColor: =RGBA(32, 54, 71, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        PaddingBottom: =5.00
+        PaddingLeft: =12.00
+        PaddingRight: =17.51
+        PaddingTop: =17.51
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =768
+        X: =120
+        Y: =216.00
+        ZIndex: =2
+
+    email As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =40.00
+        Size: =15
+        Text: ="Email"
+        Width: =525.38
+        X: =121
+        Y: =158
+        ZIndex: =3
+
+    InputPassword As text:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =56.00
+        HintText: ="Input password"
+        HoverBorderColor: =RGBA(32, 54, 71, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        PaddingBottom: =5.00
+        PaddingLeft: =12.00
+        PaddingRight: =17.51
+        PaddingTop: =17.51
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =768
+        X: =120
+        Y: =349
+        ZIndex: =4
+
+    Password As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =40.00
+        Size: =15
+        Text: ="Password"
+        Width: =525.38
+        X: =121
+        Y: =302
+        ZIndex: =5
+
+    LoginButton As button:
+        BorderThickness: =0
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(214, 24, 195, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =72
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(129, 32, 199, 100), -20%)
+        OnSelect: |
+            =If(
+                IsBlank(InputEmail.Text) || IsBlank(InputPassword.Text),
+                Notify("Please enter both email and password.", NotificationType.Error),
+                If(
+                    Not(IsMatch(InputEmail.Text, "^[\w\.-]+@[\w\.-]+\.\w+$")),
+                    Notify("Invalid email format. Please enter a valid email address.", NotificationType.Error),
+                    If(
+                        InputPassword.Text = "password123",  // Replace "password123" with your actual password
+                        Navigate(Screen2, ScreenTransition.None),  // Replace "Screen2" with the screen name you want to navigate to
+                        Notify("Incorrect email or password.", NotificationType.Error)
+                    )
+                )
+            )
+        PaddingBottom: =5.00
+        PaddingLeft: =5.00
+        PaddingRight: =17.51
+        PaddingTop: =17.51
+        Size: =17
+        Text: ="Log in"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =768
+        X: =120
+        Y: =529
+        ZIndex: =6
+
+    "'Forget Password' As label":
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =42
+        OnSelect: =
+        Size: =15
+        Text: ="Forget Password?"
+        Width: =768
+        X: =121
+        Y: =422
+        ZIndex: =7
+
+    Icon1 As icon.ChevronLeft:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =10
+        Color: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =10
+        Height: =22
+        HoverColor: =ColorFade(Self.Color, 40%)
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back()
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        Width: =61
+        X: =42
+        Y: =70
+        ZIndex: =8
+

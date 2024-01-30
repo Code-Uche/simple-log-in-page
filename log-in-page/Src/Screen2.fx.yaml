@@ -1,0 +1,317 @@
+Screen2 As screen:
+    BackgroundImage: =
+    ImagePosition: =ImagePosition.Fill
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    "'Display Image' As groupContainer.horizontalAutoLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Height: =174.00
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =768
+        X: =65
+        Y: =188
+        ZIndex: =3
+
+        AddMediaWithImage2 As group:
+            Height: =5
+            LayoutMinHeight: =5
+            LayoutMinWidth: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+            UploadedImage2 As image:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Height: =100.00
+                Image: =If(IsBlank(AddMediaButton2.Media), SampleImage, AddMediaButton2.Media)
+                ImagePosition: =ImagePosition.Fill
+                RadiusBottomLeft: =100
+                RadiusBottomRight: =100
+                RadiusTopLeft: =100
+                RadiusTopRight: =100
+                X: =0.00
+                Y: =0.00
+                ZIndex: =2
+
+            AddMediaButton2 As addMedia:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Normal
+                Height: =100.00
+                Size: =10
+                Tooltip: ="Change picture"
+                Width: =100
+                X: =0.00
+                Y: =100.00
+                ZIndex: =3
+
+    "'Profile Review' As groupContainer.verticalAutoLayoutContainer":
+        BorderThickness: =1
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(237, 237, 237, 1)
+        Height: =42
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =1250
+        X: =65
+        Y: =390.00
+        ZIndex: =4
+
+        Label8 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            FontWeight: =FontWeight.Semibold
+            Height: =40.00
+            PaddingTop: =15
+            Size: =15
+            Text: ="ACTION REQUIRED"
+            VerticalAlign: =VerticalAlign.Bottom
+            Width: =644.47
+            Wrap: =false
+            X: =0.00
+            Y: =0.00
+            ZIndex: =1
+
+    "'Profile Review Required' As groupContainer.horizontalAutoLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Height: =42.00
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =768
+        X: =65
+        Y: =444
+        ZIndex: =5
+
+        Label12 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FillPortions: =1
+            FontWeight: =FontWeight.Lighter
+            Height: =40.00
+            Size: =15
+            Text: ="Tell us about yourself"
+            Width: =1828.34
+            Wrap: =false
+            X: =0.00
+            Y: =0.00
+            ZIndex: =1
+
+    FirstName As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =48
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        PaddingRight: =0.00
+        PaddingTop: =0.00
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1248
+        X: =67
+        Y: =512
+        ZIndex: =6
+
+        FirstNameLabel As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =13
+            Text: ="First Name"
+            ZIndex: =1
+
+        TextInput2 As text:
+            BorderColor: =RGBA(15, 15, 15, 1)
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            HintText: ="John"
+            HoverBorderColor: =RGBA(32, 54, 71, 1)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(205, 209, 213, 1)
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =13
+            ZIndex: =2
+
+        Label11 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =13
+            Text: ="Middle Name"
+            ZIndex: =3
+
+        TextInput6 As text:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            HintText: ="Enter your middle name"
+            HoverBorderColor: =RGBA(32, 54, 71, 1)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(205, 209, 213, 1)
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =13
+            ZIndex: =4
+
+    HomeHeader As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(51, 51, 51, 1)
+        Height: =113
+        LayoutMode: =LayoutMode.Auto
+        LayoutOverflowX: =LayoutOverflow.Scroll
+        LayoutOverflowY: =LayoutOverflow.Scroll
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =1264
+        X: =51
+        Y: =40
+        ZIndex: =7
+
+        Home As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Verdana
+            Text: ="Home"
+            VerticalAlign: =VerticalAlign.Bottom
+            ZIndex: =1
+
+        Apprenticeships As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Verdana
+            Text: ="Apprenticeships"
+            VerticalAlign: =VerticalAlign.Bottom
+            Width: =250
+            ZIndex: =2
+
+        Label4 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.Verdana
+            Text: ="Services"
+            Tooltip: ="Our services"
+            VerticalAlign: =VerticalAlign.Bottom
+            ZIndex: =3
+
+    LastName As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =46
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1250
+        X: =67
+        Y: =575
+        ZIndex: =8
+
+        Label9 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =13
+            Text: ="Last Name"
+            ZIndex: =1
+
+        TextInput3 As text:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            HintText: ="Doe"
+            HoverBorderColor: =RGBA(32, 54, 71, 1)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(205, 209, 213, 1)
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =13
+            ZIndex: =2
+
+        Label13 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =13
+            Text: ="Date of birth"
+            ZIndex: =3
+
+        TextInput7 As text:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            HintText: ="Enter date of birth"
+            HoverBorderColor: =RGBA(32, 54, 71, 1)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(205, 209, 213, 1)
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =13
+            ZIndex: =4
+

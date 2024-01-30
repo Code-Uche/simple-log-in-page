@@ -1,0 +1,33 @@
+"'61a79d83-22b4-4e8b-ab9e-4eb3173244b9' As TestSuite":
+    Description: =""
+    DisplayName: ="Log in page"
+
+    "'e6554813-4d96-4543-88b4-0ed30abc69eb' As TestCase":
+        Description: =""
+        DisplayName: ="Case"
+
+        Step1 As TestStep:
+            Description: ="Set 'InputEmail'.Text to ""ezeprecious.uche@gmail.com"""
+            Screen: =Screen1
+            Value: =SetProperty(InputEmail.Text, "ezeprecious.uche@gmail.com")
+
+        Step2 As TestStep:
+            Description: ="Set 'InputPassword'.Text to ""password235"""
+            Screen: =Screen1
+            Value: =SetProperty(InputPassword.Text, "password235")
+
+        Step3 As TestStep:
+            Description: ="Select 'LoginButton'"
+            Screen: =Screen1
+            Value: =Select(LoginButton)
+
+        Step4 As TestStep:
+            Description: ="Set 'InputPassword'.Text to ""password123"""
+            Screen: =Screen1
+            Value: =SetProperty(InputPassword.Text, "password123")
+
+        Step5 As TestStep:
+            Description: ="Select 'LoginButton'"
+            Screen: =Screen1
+            Value: =Select(LoginButton)
+
