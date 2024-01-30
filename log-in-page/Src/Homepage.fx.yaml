@@ -19,9 +19,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =1361
-        X: =5
-        Y: =288
+        Width: =1366
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
@@ -59,7 +57,7 @@
         Size: =25
         Text: ="FusionLink"
         Width: =227
-        X: =111
+        X: =51
         Y: =53
         ZIndex: =2
 
@@ -74,7 +72,7 @@
         Size: =25
         Text: ="Solutions"
         Width: =182
-        X: =318
+        X: =266
         Y: =53
         ZIndex: =3
 
