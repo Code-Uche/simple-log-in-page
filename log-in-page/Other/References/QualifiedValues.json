@@ -3,7 +3,9 @@
     {
       "Kind": "default.cds_cr288_inventory_forms",
       "Namespace": "Inventory (Forms)",
-      "Values": {}
+      "Values": {
+        "Information": "d8b673cd-e980-4d28-b033-946854afc925"
+      }
     }
   ]
 }

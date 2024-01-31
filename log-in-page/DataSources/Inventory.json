@@ -6,15 +6,30 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr288_inventory",
+    "MaxGetRowsCount": 500,
     "Name": "Inventory",
     "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
       "cr288_courseid": "Course ID",
       "cr288_coursename": "Course Name",
+      "cr288_inventory_AsyncOperations": "System Jobs",
+      "cr288_inventory_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr288_inventory_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr288_inventory_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr288_inventory_ProcessSession": "Process Sessions",
+      "cr288_inventory_SyncErrors": "Sync Errors",
       "cr288_inventoryid": "Inventory",
+      "createdby": "Created By",
       "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
       "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
       "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
       "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
       "statecode": "Status",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
@@ -23,6 +38,60 @@
     },
     "PreferredName": "Inventory",
     "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Inventory (Views)",
+    "Name": "_cr288_inventory_views",
+    "RelatedEntityName": "Inventory",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0fbdeb08-1d1c-4761-9a60-4dac9e9fe4a1": "Active Inventory",
+      "a33dfc0a-379f-4398-a3ff-61f54651ae01": "Inventory Associated View",
+      "aa0fc275-c032-46c2-be0f-2fbf2ccfb038": "Inventory Advanced Find View",
+      "cf5dcee4-b274-47ee-b0d1-17edd059c6d8": "Inventory Lookup View",
+      "efd3e09d-9bd5-4d16-98dd-bddf58e450c3": "Inactive Inventory"
+    }
+  },
+  {
+    "DisplayName": "Status (Inventory)_1",
+    "Name": "cr288_inventory_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Inventory",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Inventory)_1",
+    "Name": "cr288_inventory_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Inventory"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Inventory",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Status (Inventory)",

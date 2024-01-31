@@ -9,65 +9,65 @@
         Step1 As TestStep:
             Description: ="Set 'InputEmail'.Text to ""preciousueze@outlook.com"""
             Screen: =Screen1
-            Value: =SetProperty('InputEmail'.Text, "preciousueze@outlook.com")
+            Value: =SetProperty(InputEmail.Text, "preciousueze@outlook.com")
 
         Step2 As TestStep:
             Description: ="Select 'InputPassword'"
             Screen: =Screen1
-            Value: =Select('InputPassword')
+            Value: =Select(InputPassword)
 
         Step3 As TestStep:
             Description: ="Select 'InputEmail'"
             Screen: =Screen1
-            Value: =Select('InputEmail')
+            Value: =Select(InputEmail)
 
         Step4 As TestStep:
             Description: ="Select 'InputEmail'"
             Screen: =Screen1
-            Value: =Select('InputEmail')
+            Value: =Select(InputEmail)
 
         Step5 As TestStep:
             Description: ="Set 'InputEmail'.Text to ""xyz@outlook.com"""
             Screen: =Screen1
-            Value: =SetProperty('InputEmail'.Text, "xyz@outlook.com")
+            Value: =SetProperty(InputEmail.Text, "xyz@outlook.com")
 
         Step6 As TestStep:
             Description: ="Set 'InputPassword'.Text to ""password123"""
             Screen: =Screen1
-            Value: =SetProperty('InputPassword'.Text, "password123")
+            Value: =SetProperty(InputPassword.Text, "password123")
 
         Step7 As TestStep:
             Description: ="Select 'LoginButton'"
             Screen: =Screen1
-            Value: =Select('LoginButton')
+            Value: =Select(LoginButton)
 
         Step8 As TestStep:
             Description: ="Select 'AddMediaButton2'"
             Screen: =Screen2
-            Value: =Select('AddMediaButton2')
+            Value: =Select(AddMediaButton2)
 
         Step9 As TestStep:
             Description: ="Set 'TextInput2'.Text to ""Jane"""
             Screen: =Screen2
-            Value: =SetProperty('TextInput2'.Text, "Jane")
+            Value: =SetProperty(TextInput2.Text, "Jane")
 
         Step10 As TestStep:
             Description: ="Set 'TextInput6'.Text to ""Will"""
             Screen: =Screen2
-            Value: =SetProperty('TextInput6'.Text, "Will")
+            Value: =SetProperty(TextInput6.Text, "Will")
 
         Step11 As TestStep:
             Description: ="Set 'TextInput3'.Text to ""Doe"""
             Screen: =Screen2
-            Value: =SetProperty('TextInput3'.Text, "Doe")
+            Value: =SetProperty(TextInput3.Text, "Doe")
 
         Step12 As TestStep:
             Description: ="Set 'TextInput7'.Text to ""01/02/2000"""
             Screen: =Screen2
-            Value: =SetProperty('TextInput7'.Text, "01/02/2000")
+            Value: =SetProperty(TextInput7.Text, "01/02/2000")
 
         Step13 As TestStep:
             Description: ="Select 'Apprenticeships'"
             Screen: =Screen2
-            Value: =Select('Apprenticeships')
+            Value: =Select(Apprenticeships)
 
