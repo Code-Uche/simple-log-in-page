@@ -4,7 +4,6 @@
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
-        Fill: =RGBA(32, 54, 71, 1)
         Height: =193
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -24,7 +23,6 @@
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
-            Fill: =RGBA(32, 54, 71, 1)
             FillPortions: =0
             Height: =75.00
             LayoutAlignItems: =LayoutAlignItems.Center
@@ -44,36 +42,6 @@
             X: =0.00
             Y: =0.00
             ZIndex: =1
-
-    fusionlink As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(0, 134, 208, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.Georgia
-        FontWeight: =FontWeight.Bold
-        Height: =60
-        Size: =25
-        Text: ="FusionLink"
-        Width: =227
-        X: =40
-        Y: =93
-        ZIndex: =2
-
-    solutions As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(255, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.Arial
-        FontWeight: =FontWeight.Bold
-        Height: =60
-        Size: =25
-        Text: ="Solutions"
-        Width: =182
-        X: =255
-        Y: =93
-        ZIndex: =3
 
     signin As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -214,4 +182,14 @@
         X: =1281
         Y: =16
         ZIndex: =15
+
+    Image2 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Image: ='FUSION LINK SOLUTIONS COLOURED LOGO'
+        ImagePosition: =ImagePosition.Fill
+        Width: =359
+        Y: =83
+        ZIndex: =16
 

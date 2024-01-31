@@ -461,36 +461,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.FUSION LINK SOLUTIONS COLOURED LOGO"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.FUSION LINK SOLUTIONS COLOURED LOGO",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FUSION LINK SOLUTIONS COLOURED LOGO",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.photo2"
                 }
               ],
