@@ -725,6 +725,66 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.pexels-cottonbro-studio-5474028"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.pexels-cottonbro-studio-5474028",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "pexels-cottonbro-studio-5474028",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.transparent-glass-bubble-with-x-logo-inside-it-isolated-transparent-background"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.transparent-glass-bubble-with-x-logo-inside-it-isolated-transparent-background",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "transparent-glass-bubble-with-x-logo-inside-it-isolated-transparent-background",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
         }
       ],
       "tool": {
