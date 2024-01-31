@@ -54,7 +54,7 @@
     }
   },
   {
-    "DisplayName": "Status (Inventory)_1",
+    "DisplayName": "Status (Inventory)",
     "Name": "cr288_inventory_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -74,48 +74,8 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Inventory)_1",
-    "Name": "cr288_inventory_statuscode",
-    "OptionSetInfoNameMapping": {
-      "1": "Active",
-      "2": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Inventory"
-      }
-    },
-    "OptionSetTypeKey": "StatusType",
-    "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Inventory",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Status (Inventory)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_04bbc4f843_statecode",
-    "OptionSetInfoNameMapping": {
-      "0": "Active",
-      "1": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Inventory"
-      }
-    },
-    "OptionSetTypeKey": "StateType",
-    "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Inventory",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Status Reason (Inventory)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_04bbc4f843_statuscode",
+    "Name": "cr288_inventory_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
