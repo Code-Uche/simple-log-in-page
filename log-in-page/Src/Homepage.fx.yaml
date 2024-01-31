@@ -1,5 +1,6 @@
 "Homepage As screen.'autoLayout_HeaderFooter_ver1.0'":
     BackgroundImage: ='19276'
+    ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
@@ -139,7 +140,7 @@
         Y: =21
         ZIndex: =11
 
-    Image3 As image:
+    Twitter As image:
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -150,7 +151,7 @@
         Y: =24
         ZIndex: =12
 
-    Image4 As image:
+    Instagram As image:
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -161,7 +162,7 @@
         Y: =8
         ZIndex: =13
 
-    Image5 As image:
+    Facebook As image:
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -172,7 +173,7 @@
         Y: =21
         ZIndex: =14
 
-    Image1 As image:
+    Linkedin As image:
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -183,7 +184,7 @@
         Y: =16
         ZIndex: =15
 
-    Image2 As image:
+    "'Fusionlink logo' As image":
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
