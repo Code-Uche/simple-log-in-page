@@ -204,3 +204,14 @@
         Y: =21
         ZIndex: =14
 
+    Image1 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =44
+        Image: ='pngwing.com (2)'
+        Width: =52
+        X: =1281
+        Y: =16
+        ZIndex: =15
+
