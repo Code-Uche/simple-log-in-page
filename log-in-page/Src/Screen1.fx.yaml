@@ -168,3 +168,28 @@ Screen1 As screen:
         Y: =70
         ZIndex: =8
 
+    Label1 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =41
+        Size: =13
+        Text: ="Do not have an account?"
+        Width: =248
+        X: =121
+        Y: =625
+        ZIndex: =9
+
+    Label3 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 121, 187, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =41
+        OnSelect: =Navigate(Screen3)
+        Size: =13
+        Text: ="Create an account"
+        Width: =198
+        X: =339
+        Y: =625
+        ZIndex: =10
+

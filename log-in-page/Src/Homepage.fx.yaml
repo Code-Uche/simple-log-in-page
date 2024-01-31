@@ -5,6 +5,7 @@
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Light
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =193
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -24,6 +25,7 @@
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
             FillPortions: =0
             Height: =75.00
             LayoutAlignItems: =LayoutAlignItems.Center
@@ -49,12 +51,13 @@
         Color: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
+        OnSelect: =Navigate(Screen1)
         Size: =15
         Text: ="Log in"
         Width: =96
         X: =1081
         Y: =113
-        ZIndex: =4
+        ZIndex: =2
 
     Label15 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -65,7 +68,7 @@
         Text: ="Signup"
         X: =1190
         Y: =113
-        ZIndex: =5
+        ZIndex: =3
 
     Label17 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -76,7 +79,7 @@
         Width: =284
         X: =88
         Y: =16
-        ZIndex: =6
+        ZIndex: =4
 
     Icon2 As icon.Mail:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -88,7 +91,7 @@
         Width: =48
         X: =40
         Y: =16
-        ZIndex: =7
+        ZIndex: =5
 
     Label18 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -101,7 +104,7 @@
         Width: =290
         X: =397
         Y: =16
-        ZIndex: =8
+        ZIndex: =6
 
     Icon3 As icon.Clock:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -113,7 +116,7 @@
         Width: =38
         X: =359
         Y: =10
-        ZIndex: =9
+        ZIndex: =7
 
     Label19 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -125,7 +128,7 @@
         Width: =464
         X: =651
         Y: =18
-        ZIndex: =10
+        ZIndex: =8
 
     Label20 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -138,7 +141,7 @@
         Width: =112
         X: =1081
         Y: =21
-        ZIndex: =11
+        ZIndex: =9
 
     Twitter As image:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -149,7 +152,7 @@
         Width: =31
         X: =1159
         Y: =24
-        ZIndex: =12
+        ZIndex: =10
 
     Instagram As image:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -160,7 +163,7 @@
         Width: =22
         X: =1205
         Y: =8
-        ZIndex: =13
+        ZIndex: =11
 
     Facebook As image:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -171,18 +174,19 @@
         Width: =32
         X: =1249
         Y: =21
-        ZIndex: =14
+        ZIndex: =12
 
     Linkedin As image:
         BorderColor: =RGBA(32, 54, 71, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =44
         Image: ='pngwing.com (2)'
         Width: =52
         X: =1281
         Y: =16
-        ZIndex: =15
+        ZIndex: =13
 
     "'Fusionlink logo' As image":
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -192,5 +196,5 @@
         ImagePosition: =ImagePosition.Fill
         Width: =359
         Y: =83
-        ZIndex: =16
+        ZIndex: =14
 
